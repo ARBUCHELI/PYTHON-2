@@ -75,6 +75,63 @@ print viking
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Escaping characters
+---------------------
+1 min
+There are some characters that cause problems. For example:
+
+'There's a snake in my boot!'
+
+This code breaks because Python thinks the apostrophe in 'There's' ends the string. We can use the backslash to fix the problem, like this:
+
+'There\'s a snake in my boot!'
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Fix the string in the editor!
+
+
+Hint
+You can escape the ' just by adding a ' before it: \'.
+
+There’s another way to fix this problem. Can you think of it?
+
+You cannot pass this exercise with the other methods.
+
+script.py
+---------
+# The string below is broken. Fix it using the escape backslash!
+
+'This isn\'t flying, this is falling with style!'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
