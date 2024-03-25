@@ -37,3 +37,63 @@ brian = "Hello life!"
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Practice
+----------
+1 min
+Excellent! Let’s get a little practice in with strings.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Set the following variables to their respective phrases:
+
+	1. Set caesar to "Graham"
+
+	2. Set praline to "John"
+
+	3. Set viking to "Teresa"
+
+Hint
+Make sure you use exactly the capitalization shown! Python takes things very literally.
+
+script.py
+---------
+# Assign your variables below, each on its own line!
+caesar = "Graham"
+praline = "John"
+viking = "Teresa"
+
+
+
+
+# Put your variables above this line
+
+print caesar
+print praline
+print viking
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
