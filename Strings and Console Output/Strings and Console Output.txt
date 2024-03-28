@@ -311,6 +311,64 @@ print(ministry.upper())
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Printing Strings
+------------------
+1 min
+The area where we’ve been writing our code is called the editor.
+
+The console (the window to the right of the editor) is where the results of your code is shown.
+
+print simply displays your code in the console.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Print “Monty Python” to the console.
+
+
+Hint
+The syntax looks like this:
+
+print "Your string goes here"
+
+script.py
+---------
+"""Tell Python to print "Monty Python"
+to the console on line 4!"""
+
+print("Monty Python")
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
