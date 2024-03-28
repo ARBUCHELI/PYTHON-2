@@ -222,6 +222,60 @@ print(parrot.lower())
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+upper()
+-------
+<1 min
+Now your string is 100% lower case! A similar method exists to make a string completely upper case.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Call upper() on parrot (after print on line 3) in order to capitalize all the characters in the string!
+
+
+Hint
+Use the same syntax as the previous exercise! Last time, you used:
+
+print parrot.lower()
+
+script.py
+---------
+parrot = "norwegian blue"
+
+print(parrot.upper())
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
