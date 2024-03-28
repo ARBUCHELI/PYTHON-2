@@ -341,6 +341,57 @@ print("Monty Python")
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Printing Variables
+--------------------
+1 min
+Great! Now that we’ve printed strings, let’s print variables
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Declare a variable called the_machine_goes and assign it the string value "Ping!" on line 5.
+
+Go ahead and print the_machine_goes in line 6.
+
+
+Hint
+Make sure you’re setting your variable like this:
+
+the_machine_goes = "Ping!"
+
+script.py
+---------
+"""Assign the string "Ping!" to
+the variable the_machine_goes on
+line 5, then print it out on line 6!"""
+
+the_machine_goes = "Ping!"
+print(the_machine_goes)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
