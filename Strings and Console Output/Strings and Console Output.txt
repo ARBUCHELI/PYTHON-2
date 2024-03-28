@@ -192,6 +192,37 @@ print (len(parrot))
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* lower()
+---------
+2 min
+Well done!
+
+You can use the lower() method to get rid of all the capitalization in your strings. You call lower() like so:
+
+"Ryan".lower()
+
+which will return "ryan".
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Call lower() on parrot (after print) on line 3 in the editor.
+
+
+Hint
+Your code should look something like this:
+
+print parrot.lower()
+
+script.py
+---------
+print(parrot.lower())
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
