@@ -487,6 +487,85 @@ print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* String Formatting with %, Part 2
+----------------------------------
+3 min
+Remember, we used the % operator to replace the %s placeholders with the variables in parentheses.
+
+name = "Mike"
+print "Hello %s" % (name)
+
+You need the same number of %s terms in a string as the number of variables in parentheses:
+
+print "The %s who %s %s!" % ("Knights", "say", "Ni")
+# This will print "The Knights who say Ni!"
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Now it’s your turn! We have ___ in the code to show you what you need to change!
+
+	1. Inside the string, replace the three ___ with %s.
+
+	2. After the string but before the three variables, replace the final ___ with a %.
+
+	3. Hit Run.
+
+Hint
+Remember, the syntax is:
+
+print "%s" % (string_variable)
+
+The \ character on line 5 is a continuation marker. It simply tells Python that line 5 continues onto line 6.
+
+script.py
+---------
+name = "Alex"
+quest = "Teaching Python"
+color = "Blue"
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
