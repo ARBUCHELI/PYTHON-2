@@ -1,0 +1,293 @@
+# PROJECT 
+---------
+
+* Python Mad Libs
+-----------------
+In this project, we’ll use Python to write a Mad Libs word game! Mad Libs have short stories with blank spaces that a player can fill in. The result is usually funny (or strange).
+
+Mad Libs require:
+
+	. A short story with blank spaces (asking for different types of words).
+
+	. Words from the player to fill in those blanks.
+
+“Roses are Red” poem example:
+
+Mad Libs Example
+
+For this project, we have provided the story, but it will be up to you to complete the following:
+
+	1. Prompt the user for inputs.
+
+	2. Print the story with the inputs in the right places.
+
+Let’s begin!
+
+If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
+
+Tasks
+12/12 complete
+Mark the tasks as complete by checking them off
+
+* Python Mad Libs
+-----------------
+1.
+Begin by completing the multi-line comment that describes this program.
+
+The """s are already written.
+
+
+Hint
+Multi-line comments look like this:
+
+"""
+This program does
+the following...
+
+Author: your-name
+"""
+
+It’s helpful to let other programmers know what your program does when they are reading your code.
+
+2.
+Take a look at the variable named STORY. It is set equal to a string that contains our story.
+
+3.
+Let’s inform the user that the program is running.
+
+After the STORY, print a message to let the user know that Mad Libs has started.
+
+
+Hint
+print "Mad Libs is starting!"
+
+Remember, you are playing two roles here:
+
+	. the programmer
+
+	. the user
+
+When you are writing the code, you are the programmer. However, you need to be constantly thinking from the users’ point of view — they are the ones who run your program.
+
+4.
+The story that we have provided is going to need a main character.
+
+Ask the user to input a name, and store the user’s input in a variable:
+
+name = raw_input("Enter a name: ")
+
+Note: It’s common practice to use short, but descriptive variable names.
+
+
+Hint
+raw_input() presents a string to the user, gets input from the user and returns the data in a string.
+
+Here, the code is asking the user to enter a name, and saving whatever they enter into the variable name.
+
+5.
+You will need to ask the user for three adjectives.
+
+Ask the user for input three separate times. Store each adjective that the user inputs into descriptive variables as you did when you asked the user for a name.
+
+
+Hint
+Storing three different inputs into three different variables:
+
+adj1 = raw_input("Enter an adjective: ")
+adj2 = raw_input("Enter a second adjective: ")
+adj3 = raw_input("Enter one more adjective: ")
+
+Here, we used the variable names adj1, adj2, and adj3.
+
+6.
+It’s a good practice to save, and run the code every few steps to make sure there are no bugs.
+
+In the terminal, type the following command and press Enter on your keyboard:
+
+python Madlibs.py
+
+
+Hint
+Executing this command in the terminal tells the computer to run the Madlibs.py program.
+
+When your program finishes, it should look something like:
+
+$ python Madlibs.py
+Mad Libs is starting!
+Enter a name: _____
+Enter an adjective: _____
+Enter a second adjective: _____
+Enter one more adjective: _____
+
+The blank spaces are where the user type something and press Enter.
+
+If you are getting an error, make sure to debug (check your code for typos or mistakes) before repeating this task.
+
+Workflow Circle
+
+7.
+Moving on! You’ll also need to ask the user for one verb.
+
+Ask the user for input a verb. Store the verb in a variable.
+
+
+Hint
+verb = raw_input("Enter a verb: ")
+
+8.
+The story also needs two nouns.
+
+Ask the user to input two nouns. Store each noun in its own variable.
+
+
+Hint
+noun1 = raw_input("Enter a noun: ")
+noun2 = raw_input("Enter a second noun: ")
+
+9.
+This is where the story can get really fun and weird.
+
+Ask the user to input one of each of the following:
+
+	. An animal
+
+	. A food
+
+	. A fruit
+
+	. A superhero
+
+	. A country
+
+	. A dessert
+
+	. A year
+
+Make sure to save the inputs into different variables.
+
+
+Hint
+animal = raw_input("Enter an animal: ")
+food = raw_input("Enter a food: ")
+fruit = raw_input("Enter a fruit: ")
+superhero = raw_input("Enter a superhero: ")
+country = raw_input("Enter a country: ")
+dessert = raw_input("Enter a dessert: ")
+year = raw_input("Enter a year: ")
+
+Here, we are saving user’s inputs into these variables:
+
+	. animal
+
+	. food
+
+	. fruit
+
+	. superhero
+
+	. country
+
+	. dessert
+
+	. year
+
+10.
+At this point, we have all the words needed for the story.
+
+The next step is to insert all of the user’s inputs into the blank spaces of the story using string formatting.
+
+In the STORY, replace all the _ with %s.
+
+
+Hint
+STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %ss were protesting to keep %s in stores...
+
+Note that the snippet of code above has been abbreviated.
+
+11.
+Write the final line of the program that prints the story and inserts all the variables (using string formatting with %) in the following order:
+
+	1. Name
+	2. First adjective
+	3. Second adjective
+	4. Animal
+	5. Food
+	6. Verb
+	7. First noun
+	8. Fruit
+	9. Third adjective
+	10. Name
+	11. Superhero
+	12. Name
+	13. Country
+	14. Name
+	15. Dessert
+	16. Name
+	17. Year
+	18. Second noun
+
+Hint
+Your variable names might be different, but it should look something like:
+
+print STORY % (name, adj1, adj2, animal, food, verb, noun1, fruit, adj3, name, superhero, name, country, name, dessert, name, year, noun2)
+
+Yes, this is a long line of code, but that’s okay!
+
+The % operator will replace all the %s placeholders in STORY with the variables that are in the parenthesis.
+
+12.
+Let’s run the program!
+
+Save the program. Then, in the terminal, type the following command and press Enter:
+
+python Madlibs.py
+
+
+Hint
+If you encounter an error when running MadLibs.py, make sure to double check your code for typos or mistakes. If the program ran successfully in task 6, then the error(s) is in the code 
+you wrote after that point.
+
+Common errors:
+
+	. A mismatch between the number of variables to be interpolated and the number of %s placeholders.
+
+	. A mismatch in variable names.
+
+Edit the code and repeat this task again.
+
+If you are feeling ambitious, modify the story and the code to create your very own Mad Libs!
+
+Madlibs.py
+----------
+"""
+Description: Mad Libs Game
+Author: Andres R. Bucheli
+"""
+
+# The template for the story
+
+STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %s were protesting to keep %s in stores. They began to %s to the rhythm of the %s, which 
+made all the %ss very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in a puddle of frozen %s. %s woke up in the year %s, in a world where %ss ruled the world."
+
+print("Welcome to Mad Libs. The game has started!!!")
+
+name = raw_input("Enter a name: ")
+
+adjective1 = raw_input("Enter the first adjective: ")
+adjective2 = raw_input("Enter the second adjective: ")
+adjective3 = raw_input("Enter the third adjective: ")
+
+verb = raw_input("Enter a verb: ")
+
+noun1 = raw_input("Enter the first noun: ")
+noun2 = raw_input("Enter the second noun: ")
+
+animal = raw_input("Enter an animal: ")
+food = raw_input("Enter a food: ")
+fruit = raw_input("Enter a fruit: ")
+superhero = raw_input("Enter a superhero: ")
+country = raw_input("Enter a country: ")
+dessert = raw_input("Enter a dessert: ")
+year = raw_input("Enter a year: ")
+
+print STORY % (name, adjective1, adjective2, animal, food, verb, noun1, fruit, adjective3, name, superhero, name, country, name, dessert, name, year, noun2)
