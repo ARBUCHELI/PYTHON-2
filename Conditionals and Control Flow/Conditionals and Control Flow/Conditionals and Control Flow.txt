@@ -179,6 +179,55 @@ bool_five = False
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* How the Tables Have Turned
+----------------------------
+3 min
+Comparisons result in either True or False, which are booleans as we learned before in this exercise.
+
+# Make me true!
+bool_one = 3 < 5
+
+Let’s switch it up: we’ll give the boolean, and you’ll write the expression, just like the example above.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+For each boolean value in the editor, write an expression that evaluates to that value. Remember, comparators are: ==, !=, >, >=, <, and <=.
+
+Use at least three different ones!
+
+Don’t just use True and False! That’s cheating!
+
+
+Hint
+bool_two should store a false expression, so you could try:
+
+bool_two = 8 < 7
+
+script.py
+---------
+# Create comparative statements as appropriate on the lines below!
+
+# Make me true!
+bool_one = 3 < 5  # We already did this one for you!
+
+# Make me false!
+bool_two = 3 > 5
+
+# Make me true!
+bool_three = 3** 20 != 3** 30
+
+# Make me false!
+bool_four = 6 % 2 == 6 % 4
+
+# Make me true!
+bool_five = "apple" == "apple"
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
