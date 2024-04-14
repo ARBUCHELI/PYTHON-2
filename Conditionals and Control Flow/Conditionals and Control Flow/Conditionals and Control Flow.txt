@@ -450,6 +450,47 @@ bool_five = False
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Mix 'n' Match
+---------------
+5 min
+Great work! We’re almost done with boolean operators.
+
+# Make me false
+bool_one = (2 <= 2) and "Alpha" == "Bravo"
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+This time we’ll give the expected result, and you’ll use some combination of boolean operators to achieve that result.
+
+Remember, the boolean operators are and, or, and not. Use each one at least once!
+
+
+Hint
+Make sure to use at least one and, or, or not.
+
+script.py
+---------
+# Use boolean expressions as appropriate on the lines below!
+
+# Make me false!
+bool_one = (2 <= 2) and "Alpha" == "Bravo"  # We did this one for you!
+
+# Make me true!
+bool_two = 4**0.5 == 2 and "Mitch" == "Mitch"
+
+# Make me false!
+bool_three = 10 % 2 == 1 or "Lima" == "Spider"
+
+# Make me true!
+bool_four = not False and True
+
+# Make me true!
+bool_five = True and True
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
