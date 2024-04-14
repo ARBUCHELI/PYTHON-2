@@ -676,6 +676,90 @@ print greater_less_equal_5(6)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* The Big If
+------------
+6 min
+Really great work! Here’s what you’ve learned in this unit:
+
+* Comparators
+-------------
+3 < 4
+5 >= 5
+10 == 10
+12 != 13
+
+* Boolean operators
+-------------------
+True or False 
+(3 < 4) and (5 >= 5)
+this() and not that()
+
+* Conditional statements
+------------------------
+if this_might_be_true():
+  print "This really is true."
+elif that_might_be_true():
+  print "That is true."
+else:
+  print "None of the above."
+
+Let’s get to the grand finale.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+In the workspace to your right, there is the outline of a function called grade_converter().
+
+The purpose of this function is to take a number grade (1-100), defined by the variable grade, and to return the appropriate letter grade (A, B, C, D, or F).
+
+Your task is to complete the function by creating appropriate if and elif statements that will compare the input grade with a number and then return a letter grade.
+
+Your function should return the following letter grades:
+
+	. 90 or higher should get an “A”
+
+	. 80 - 89 should get a “B”
+
+	. 70 - 79 should get a “C”
+
+	. 65 - 69 should get a “D”
+
+	. Anything below a 65 should receive an “F”
+
+Hint
+Be careful with your indentation—grade_converter() is a function (which we’ll get to in the next unit), and as you can see from the comment, function blocks are indented the same way if, 
+elif, and else blocks are.
+
+If you are having trouble creating the if and elif statements, here’s the first one you can use as an example:
+
+if grade >= 90:
+     return "A"```
+This will compare the variable `grade` with the value `90` and if it is greater than or equal to `90` it will return the letter `A`.
+
+script.py
+---------
+# Complete the if and elif statements!
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80 and grade < 89:
+        return "B"
+    elif grade >= 70 and grade < 79:
+        return "C"
+    elif grade >= 65 and grade < 69:
+        return "D"
+    else:
+        return "F"
+      
+# This should print an "A"      
+print grade_converter(92)
+
+# This should print a "C"
+print grade_converter(70)
+
+# This should print an "F"
+print grade_converter(61)
 
 
 
