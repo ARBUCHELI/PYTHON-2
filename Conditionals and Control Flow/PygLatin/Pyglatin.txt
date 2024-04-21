@@ -85,6 +85,88 @@ original = raw_input("Enter a word: ")
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Check Yourself!
+-----------------
+6 min
+Next we need to ensure that the user actually typed something.
+
+empty_string = ""
+if len(empty_string) > 0:
+  # Run this block.
+  # Maybe print something?
+else:
+  # That string must have been empty.
+
+We can check that the user’s string actually has characters!
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Write an if statement that verifies that the string has characters.
+
+	. Add an if statement that checks that len(original) is greater than zero. Don’t forget the : at the end of the if statement!
+
+	. If the string actually has some characters in it, print the user’s word.
+
+	. Otherwise (i.e. an else: statement), please print "empty".
+
+You’ll want to run your code multiple times, testing an empty string and a string with characters. When you’re confident your code works, continue to the next exercise.
+
+
+Hint
+Don’t forget that > is the greater than operator!
+
+Does it look like your code is stuck? Is there a spinning circle? That probably means that your code is waiting for you to type something! Click inside the console window on the other 
+side, type a word, then press Enter (or Return).
+
+script.py
+---------
+print 'Welcome to the Pig Latin Translator!'
+
+# Start coding here!
+original = raw_input("Enter a word: ")
+
+if len(original) > 0:
+  print original
+else:
+  print "empty"
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
