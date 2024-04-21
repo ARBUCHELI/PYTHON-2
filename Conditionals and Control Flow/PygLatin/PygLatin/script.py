@@ -1,0 +1,2 @@
+print ("Pig Latin")
+
