@@ -134,6 +134,79 @@ else:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Check Yourself... Some More
+-----------------------------
+4 min
+Now we know we have a non-empty string. Let’s be even more thorough and check that our string only contains letters.
+
+Consider the following code:
+
+x = "J123"
+x.isalpha()  # This will return 'False'
+
+In the first line, we create a string with letters and numbers.
+
+The second line then runs the method .isalpha() which returns False since the string contains non-letter characters.
+
+You can use .isalpha() to check that a string doesn’t contain any non-letter characters! For example:
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Use and to add a second condition to your if statement. In addition to your existing check that the string contains characters, you should also use .isalpha() to make sure that it only 
+contains letters.
+
+Don’t forget to keep the colon at the end of the if statement!
+
+Press Run and enter a word in the terminal to test your code!
+
+
+Hint
+To combine multiple conditions in one if, you can use and between the two conditions, like this:
+
+if has_chars(the_string) and the_string.isalpha():
+  print the_string
+else:
+  print "empty"
+
+script.py
+---------
+print 'Welcome to the Pig Latin Translator!'
+
+# Start coding here!
+original = raw_input("Enter a word: ")
+
+if len(original) > 0 and original.isalpha():
+  print(original)
+else:
+  print("empty")
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
