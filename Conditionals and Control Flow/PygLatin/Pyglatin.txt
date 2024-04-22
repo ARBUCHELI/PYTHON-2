@@ -302,6 +302,85 @@ else:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Move it on Back
+-----------------
+3 min
+Now that we have the first letter stored, we need to add both the letter and the string stored in pyg to the end of the original string.
+
+Remember how to concatenate (i.e. add) strings together?
+
+greeting = "Hello "
+name = "D. Y."
+welcome = greeting + name
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+On a new line after where you created the first variable:
+
+Create a new variable called new_word and set it equal to the concatenation of word, first, and pyg.
+
+Press Run to test your code. Don’t forget to enter a word in the console!
+
+
+Hint
+You can use + to concatenate (put together) two strings, like this:
+
+word + first + pyg
+
+script.py
+---------
+pyg = 'ay'
+
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+  print original
+  word = original.lower()
+  first = word[0]
+  new_word = word + first + pyg
+else:
+  print 'empty'
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
