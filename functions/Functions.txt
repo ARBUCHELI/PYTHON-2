@@ -39,6 +39,82 @@ meal_with_tip = tip(meal_with_tax)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Function Junction
+-------------------
+6 min
+Functions are defined with three components:
+
+	1. The header, which includes the def keyword, the name of the function, and any parameters the function requires. Here’s an example:
+
+		def hello_world(): # There are no parameters
+
+	2. An optional comment that explains what the function does.
+
+		"""Prints 'Hello World!' to the console."""
+
+	3. The body, which describes the procedures the function carries out. The body is indented, just like conditional statements.
+
+		print "Hello World!"
+
+Here’s the full function pieced together:
+
+def hello_world():
+  """Prints 'Hello World!' to the console."""
+  print "Hello World!"
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Go ahead and create a function, spam, that prints the string "Eggs!" to the console. Don’t forget to include a comment of your own choosing (enclose it in triple quotes!).
+
+
+Hint
+If you’re stuck, look closely at the example function syntax in the instructional text. Remember: whitespace counts in Python!
+
+script.py
+---------
+# Define your spam function starting on line 5. You
+# can leave the code on line 10 alone for now--we'll
+# explain it soon!
+
+def spam():
+  """Prints 'Eggs!'"""
+  print "Eggs!"
+
+# Define the spam function above this line.
+spam()
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
