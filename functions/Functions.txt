@@ -118,6 +118,53 @@ square(10)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Parameters and Arguments
+--------------------------
+4 min
+Let’s take another look at the definition of the function square from the previous exercise:
+
+def square(n):
+
+Here, n is a parameter of square. A parameter is a variable that is an input to a function. It says, “Later, when square is used, you’ll be able to input any value you want, but for now 
+we’ll call that future value n.” A function can have any number of parameters.
+
+The values of the parameters passed into a function are known as the arguments. Recall in the previous example, we called:
+
+square(10)```
+
+Here, the function `square` was called with the parameter `n` set to the argument `10`.
+
+Typically, when you call a function, you should pass in the same number of arguments as there are parameters.
+
+To summarize:
+
+- When defining a function, placeholder [variables](https://www.codecademy.com/resources/docs/python/variables) are called parameters.
+- When using, or calling, a function, inputs into the function are called arguments.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Check out the function in the editor, power. It should take two arguments, a base and an exponent, and raise the first to the power of the second. It’s currently broken, however, because 
+its parameters are missing.
+
+Replace the ___s with the parameters base and exponent and then call the power function with a base of 37 and an exponent of 4.
+
+
+Hint
+Make sure to include the parameters base and exponent between the parentheses on line 1, and the arguments 37 and 4 between the parentheses on line 5. Your parameters and arguments need 
+to be separated by a comma, like this: (base, exponent).
+
+script.py
+---------
+def power(base, exponent):  # Add your parameters here!
+  result = base ** exponent
+  print "%d to the power of %d is %d." % (base, exponent, result)
+
+power(37, 4)  # Add your arguments here!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
