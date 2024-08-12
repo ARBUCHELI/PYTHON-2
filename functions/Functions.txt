@@ -456,6 +456,28 @@ print maximum
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* min()
+-------
+<1 min
+min() then returns the smallest of a given series of arguments.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Go ahead and set minimum equal to the min() of any set of integers or floats you’d like.
+
+script.py
+---------
+# Set minimum to the min value of any set of numbers on line 3!
+
+minimum = min(1,2,3,4,5,6)
+
+print minimum
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
