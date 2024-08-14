@@ -501,6 +501,74 @@ print absolute
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* type()
+--------
+2 min
+Finally, the type() function returns the type of the data it receives as an argument. If you ask Python to do the following:
+
+print type(42)
+print type(4.2)
+print type('spam')
+
+Python will output:
+
+<type 'int'>
+<type 'float'>
+<type 'str'>
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Have Python print out the type of an int, a float, and a str string in the editor. You can pick any values on which to call type(), so long as they produce one of each.
+
+Here’s a freebie if you’re a bit stuck: print type('I have to push the pram a lot') will cover your str string requirement.
+
+script.py
+---------
+# Print out the types of an integer, a float,
+# and a string on separate lines below.
+print(type(42))
+print(type(4.2))
+print(type('spam'))
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
