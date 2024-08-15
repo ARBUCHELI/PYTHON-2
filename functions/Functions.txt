@@ -581,6 +581,33 @@ def shut_down(s):
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Review: Modules
+-----------------
+1 min
+Good work! Now let’s see what you remember about importing modules (and, specifically, what’s available in the math module).
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Import the math module in whatever way you prefer. Call its sqrt function on the number 13689 and print that value to the console.
+
+There are three ways you can import the sqrt() function, but we’d probably go with
+
+from math import sqrt
+
+You can figure out the rest. We believe in you!
+
+script.py
+---------
+from math import sqrt
+
+print sqrt(13689)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
