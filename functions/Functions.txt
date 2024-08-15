@@ -607,6 +607,77 @@ print sqrt(13689)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Review: Built-In Functions
+----------------------------
+5 min
+Perfect! Last but not least, let’s review the built-in functions you’ve learned about in this lesson.
+
+def is_numeric(num):
+  return type(num) == int or type(num) == float:
+
+max(2, 3, 4) # 4
+min(2, 3, 4) # 2
+
+abs(2) # 2
+abs(-2) # 2
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+First, def a function called distance_from_zero, with one argument (choose any argument name you like).
+
+If the type of the argument is either int or float, the function should return the absolute value of the function input.
+
+Otherwise, the function should return "Nope"
+
+You can check to see if a value is of type int just as shown in the instructions:
+
+if type(thing) == int or type(thing) == float:
+  # do something with the number
+
+Make sure your capitalization and punctuation are exactly as shown!
+
+script.py
+---------
+def distance_from_zero(dist):
+  if type(dist) == int or type(dist) == float:
+    return abs(dist)
+  else:
+    return "Nope"
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
